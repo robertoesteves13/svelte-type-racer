@@ -32,7 +32,7 @@
             <span class="green">{sentenceWordsCorrect.join(" ")}</span>
             {sentenceWords.join(" ")}
         </label>
-        <input type="text" id="wordinput" class="column wordinput" on:input={validateWord} autocomplete="off" autofocus/>
+        <input type="text" id="wordinput" class="column wordinput" on:input={validateWord} autocomplete="off" placeholder="Type Here!" autofocus/>
     </div>
 </div>
 
