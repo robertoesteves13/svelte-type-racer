@@ -51,7 +51,6 @@
         -moz-user-select: none;
         user-select: none;
         outline: none;
-        te
     }
 
     .wordinput:disabled {
