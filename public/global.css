@@ -5,6 +5,7 @@ html {
   font-family: Noto Serif, serif;
 }
 body {
+  background-color: rgb(250, 250, 219);
   min-height: 100%;
   display: grid;
   place-items: center;

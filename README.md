@@ -4,7 +4,7 @@ A little project I made to practice svelte! I will try to update with new featur
 
 # Todos
 
-- [ ] WPM counter
+- [x] WPM counter
 - [ ] Pick random sentence from internet
 - [x] Style the page
 - [ ] Local scoreboard
