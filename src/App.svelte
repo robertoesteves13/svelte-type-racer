@@ -11,9 +11,9 @@
     currentWordRemaining = currentWord;
     currentWordProgress = "";
 
-    let horaInicial = Date.now();
+    let initialTime = Date.now();
 
-    $: wordsPerMinute = (correctWordsCounter) / ((Date.now() - horaInicial) / 1000) * 60;
+    $: wordsPerMinute = (correctWordsCounter) / ((Date.now() - initialTime) / 1000) * 60;
 
     let correctWordsCounter = 0;
 
